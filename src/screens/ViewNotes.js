@@ -4,9 +4,9 @@ import {Text} from 'react-native-paper'
 
 function ViewNotes() {
     return(
-        <View>
-            <View>
-                <Text>Voce nao tem notas</Text>
+        <View style= {styles.container} >
+            <View style = {styles.titleContainer}>
+                <Text style= {styles.title}>Voce nao tem notas</Text>
             </View>
         </View>
     )
