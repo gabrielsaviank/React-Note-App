@@ -1,15 +1,16 @@
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
-
 import {Text}  from 'react-native-paper'
 
 function AddNotes(){
     return(
+        <>
         <View style= {styles.container} >
             <View style = {styles.titleContainer}>
                 <Text style= {styles.title}>Adicionar Nova Nota Modal Screen</Text>
             </View>
         </View>
+        </>
     )
 } 
 
